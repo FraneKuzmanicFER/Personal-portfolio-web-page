@@ -4,6 +4,7 @@
 @import url('./css/about.css');
 @import url('./css/skills.css');
 @import url('./css/projects.css');
+@import url('./css/contact.css');
 
 * {
     margin: 0;
@@ -102,4 +103,19 @@ section {
 .btn-color-2 {
     background: none;
     color:#64ffda;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 25vh;
+    margin: 0 1rem;
+}
+  
+footer p {
+    text-align: center;
+    color: rgb(255, 255, 255, 0.7);
 }
