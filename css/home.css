@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+}
+
+
+.header-name {
+    color: #64ffda;
+    font-size: 1.5rem;
+    font-family: "Lexend", sans-serif;
+}
+
+.header-name:hover {
+    cursor: pointer;
+    color: #a3f5e2;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    height: 85vh;
+}
+
+.home-title {
+    font-size: 4.5rem;
+    text-align: center;
+    color: #64ffda;
+    margin: 1rem 0rem;
+}
+
+.home-text {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.home-text {
+    align-self: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.home-pic-container {
+    display: flex;
+    height: 450px;
+    width: 450px;
+    margin: auto 0;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.home-pic-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+.socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
