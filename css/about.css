@@ -1,0 +1,91 @@
+#about {
+    position: relative;
+}
+   
+.about-text {
+    text-align: center;
+}
+   
+.about-title {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #64ffda;
+    margin: 1rem 0rem 6rem 0rem;
+}
+   
+.about-section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    height: 80vh;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.education-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.education-details-container {
+    display: flex;
+    font-family: "Lexend", sans-serif;
+    gap: 5rem;
+}
+
+.education-detail-p1 {
+    font-size: 2rem;
+}
+
+.education-detail-p2{
+    font-size: 1.2rem;
+    color: #64ffda;
+    margin: 1rem 0rem;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.experience-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.experience-details-container {
+    display: flex;
+    font-family: "Lexend", sans-serif;
+    gap: 7rem;
+}
+
+.experience-detail-p1 {
+    font-size: 2rem;
+}
+
+.experience-detail-p2{
+    font-size: 1.2rem;
+    color: #64ffda;
+    margin: 1rem 0rem;
+}
+
+.about-icon{
+    height: 3rem;
+}
+        
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
