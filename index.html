@@ -3,8 +3,405 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frane Kuzmanić - personal website</title>
+    <title>John Doe - personal website</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header-name">John Doe</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <div class="home-text">
+        <h1 class="home-title">Hello! I am John.</h1>
+        <p class="home-text-p">
+          A Full Stack Developer<br />
+          with a passion for apps.
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cv.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+      <div class="home-pic-container">
+        <img src="./assets/myself.png" alt="profile picture" />
+      </div>
+    </section>
+    <section id="about">
+      <p class="about-text">Get To Know More</p>
+      <h1 class="about-title">About Me</h1>
+      <div class="about-section-container">
+        <div class="education-container">
+          <div class="education-title">
+            <img
+              src="./assets/people.png"
+              alt="Education icon"
+              class="about-icon"
+            />
+            <h3>Education</h3>
+          </div>
+          <div class="education-details-container">
+            <div class="education-detail">
+              <p class="education-detail-p1">
+                Faculty of Electrical<br />Engineering<br />
+                and Computing
+              </p>
+              <p class="education-detail-p2">B.Sc. Bachelors Degree</p>
+              <p class="education-detail-p2">2021 - Present</p>
+            </div>
+            <div class="education-detail-p1">
+              <p>
+                JavaScript School<br />
+                in Some Company
+              </p>
+              <p class="education-detail-p2">2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-container">
+          <div class="experience-title">
+            <img
+              src="./assets/medal.png"
+              alt="Experience icon"
+              class="about-icon"
+            />
+            <h3>Experience</h3>
+          </div>
+          <div class="experience-details-container">
+            <div class="experience-detail">
+              <p class="experience-detail-p1">
+                Some Organization<br />
+                web team leader
+              </p>
+              <p class="experience-detail-p2">2024 - Present</p>
+            </div>
+            <div class="experience-detail">
+              <p class="experience-detail-p1">
+                Full Stack Developer<br />
+                in Some Company
+              </p>
+              <p class="experience-detail-p2">2023 - Present</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="skills-text">Explore My</p>
+      <h1 class="skills-title">Skills</h1>
+      <div class="skills-section-container">
+        <div class="skill-container">
+          <h2 class="skill-sub-title">Frontend Development</h2>
+          <div class="skill-article-container">
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>React</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Redux</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="skill-container">
+          <h2 class="skill-sub-title">Backend Development</h2>
+          <div class="skill-article-container">
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>.NET</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/verify.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="projects-text">Browse My Recent</p>
+      <h1 class="projects-title">Projects</h1>
+      <div class="projects-section-container">
+        <div class="project-container">
+          <div class="article-container">
+            <img
+              src="./assets/language_app.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="project-title">FlipMemo - Language Lessons</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2"
+              onclick="location.href='https://github.com/'"
+            >
+              Live Demo
+            </button>
+          </div>
+          <div class="tech-stack-container">
+            <div class="tech-stack-title">Tech Stack</div>
+            <div class="tech-stack-items">
+              <span class="tech-stack-item">React</span>
+              <span class="tech-stack-item">Node JS</span>
+              <span class="tech-stack-item">TypeScript</span>
+              <span class="tech-stack-item">PostgreSQL</span>
+              <span class="tech-stack-item">Git</span>
+              <span class="tech-stack-item">Ant Design</span>
+              <span class="tech-stack-item">Next.js</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="article-container">
+            <img
+              src="./assets/literature_app.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="project-title">Prometheus - Learn and Read Literature</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2"
+              onclick="location.href='https://github.com/'"
+            >
+              Live Demo
+            </button>
+          </div>
+          <div class="tech-stack-container">
+            <div class="tech-stack-title">Tech Stack</div>
+            <div class="tech-stack-items">
+              <span class="tech-stack-item">React</span>
+              <span class="tech-stack-item">Redux</span>
+              <span class="tech-stack-item">.NET</span>
+              <span class="tech-stack-item">TypeScript</span>
+              <span class="tech-stack-item">MongoDB</span>
+              <span class="tech-stack-item">Git</span>
+              <span class="tech-stack-item">Material UI</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <div class="article-container">
+            <img
+              src="./assets/movie_app.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="project-title">Movie Platform - Rate Movies</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2"
+              onclick="location.href='https://github.com/'"
+            >
+              Live Demo
+            </button>
+          </div>
+          <div class="tech-stack-container">
+            <div class="tech-stack-title">Tech Stack</div>
+            <div class="tech-stack-items">
+              <span class="tech-stack-item">React</span>
+              <span class="tech-stack-item">Node JS</span>
+              <span class="tech-stack-item">TypeScript</span>
+              <span class="tech-stack-item">PostgreSQL</span>
+              <span class="tech-stack-item">Git</span>
+              <span class="tech-stack-item">Material UI</span>
+              <span class="tech-stack-item">Express.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="contact-text">Get in Touch With Me</p>
+      <h1 class="contact-title">Contact Me</h1>
+      <div class="contact-section-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon" />
+          <p>
+            <a href="mailto:examplemail@gmail.com">john.doe@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon" />
+          <p>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <p>Copyright &#169; 2024 John Doe. All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
